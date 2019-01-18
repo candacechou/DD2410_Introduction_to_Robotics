@@ -40,6 +40,7 @@
 	where :
 	
         --clock:	       Publish the clock time. This is to make sure that the time from the BAGFILE is published. 				Otherwise, the robot in RVIZ will not reset if you restart the bag.
+	
        BAGFILE:	       	       Path to a rosbag, which are located  here: 
                                mapping_assignment_metapackage/mapping_assignment/bags/ 					
 	
