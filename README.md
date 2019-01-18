@@ -47,7 +47,7 @@
        
 	
 	BAGFILE	       Path to a rosbag, which are located here 
-		       mapping_assignment_metapackage/mapping_assignment/bags/
+		       mapping_assignment_metapackage/mapping_assignment/bags/.
 	_______________________________________________________________________
 	
 	Terminal 4: rosrun mapping_assignment main.py
