@@ -1,10 +1,24 @@
 # DD2410_Introduction_to_Robotics
 1. Lab 2 : Inverse kinematic 
-2. Lab 3 : Planning
+	
+	PART 1: SCARA ROBOT
+	
+	To visualize the robot, run: 
+        >> roslaunch kinematics_assignment scara_launch.launch
+	
+	PART 2: KUKA ROBOT
+	To visualize the robot, run: 
 
+        >> roslaunch kinematics_assignment kuka_launch.launch
+	
+2. Lab 3 : Planning
+	 // Dubins Car //
 	Installation
 
-	git clone https://github.com/cisprague/dubins.git
+	>> git clone https://github.com/cisprague/dubins.git
+	
+	To run your code :
+	>> python3 main.py
 
 3. Lab 4 : Mapping
 	To run this, you have to open four terminals :
@@ -17,7 +31,8 @@
 
 	Terminal 3: rosbag play --clock BAGFILE
 	
-	where 
+	where :
+	_______________________________________________________________________
 	Argument    |	Purpose
 	_______________________________________________________________________
        
@@ -29,5 +44,5 @@
 	
 	BAGFILE	    |  Path to a rosbag, which are located here 
 		    |  mapping_assignment_metapackage/mapping_assignment/bags/
-
+	_______________________________________________________________________
 	Terminal 4: rosrun mapping_assignment main.py
