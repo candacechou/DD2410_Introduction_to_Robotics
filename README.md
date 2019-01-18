@@ -4,21 +4,21 @@
 	PART 1: SCARA ROBOT
 	
 	To visualize the robot, run: 
-        >> roslaunch kinematics_assignment scara_launch.launch
+           roslaunch kinematics_assignment scara_launch.launch
 	
 	PART 2: KUKA ROBOT
 	To visualize the robot, run: 
 
-        >> roslaunch kinematics_assignment kuka_launch.launch
+           roslaunch kinematics_assignment kuka_launch.launch
 	
 2. Lab 3 : Planning
 	 // Dubins Car //
 	Installation
 
-	>> git clone https://github.com/cisprague/dubins.git
+	   git clone https://github.com/cisprague/dubins.git
 	
 	To run your code :
-	>> python3 main.py
+	   python3 main.py
 
 3. Lab 4 : Mapping
 	To run this, you have to open four terminals :
