@@ -38,16 +38,14 @@
 	Terminal 3: rosbag play --clock BAGFILE
 	
 	where :
-	_______________________________________________________________________
 	
        --clock	       Publish the clock time. 
-	               This is to make sure that the time from 
-		       the BAGFILE is published. Otherwise, 
+	               This is to make sure that the time from the BAGFILE is published. Otherwise, 
 		       the robot in RVIZ will not reset if you restart the bag.
        
 	
-	BAGFILE	       Path to a rosbag, which are located here 
+	BAGFILE	       Path to a rosbag, which are located here: 
 		       mapping_assignment_metapackage/mapping_assignment/bags/.
-	_______________________________________________________________________
+	
 	
 	Terminal 4: rosrun mapping_assignment main.py
