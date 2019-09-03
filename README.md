@@ -24,6 +24,9 @@
 	To run your code :
 	
 	   python3 main.py
+	   
+	The code has been removed and put into the other repostory called 
+	DD2410_Introduction_to_Robotics_mapping
 
 3. Lab 4 : Mapping
 
